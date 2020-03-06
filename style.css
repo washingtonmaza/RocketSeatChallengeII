@@ -1,0 +1,194 @@
+:root{
+  --green: rgb(10, 223, 106);
+  --grayDark: rgba(0, 0, 0, 0.1);
+}
+
+
+
+body{
+  background: #282a36;
+}
+header{
+  text-align: center;
+  margin: 0;
+  background: var(--grayDark);
+  line-height: 30px;
+  
+  
+}
+header div {
+  padding: 30px;
+  word-spacing: 28px;
+  
+  
+}
+.links a{
+  color: aliceblue;
+  font-family: 'Spartan', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0, 16px;
+  padding-bottom: 3px;
+
+
+}
+
+.links a:hover {
+  color: var(--green);
+  
+}
+.list { 
+  color: aliceblue;
+  font-family: 'Spartan', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 30px;
+  margin: 0, 16px;
+  padding-bottom: 50px;
+}
+.list a { 
+  color: var(--green);
+}
+#wrapper {
+  text-align: center;
+  padding: 32px;
+  color: white;
+}
+#wrapper img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+/* COURSES */
+
+.courses {
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px
+
+}
+
+.contentCourse { 
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 2px 5px 20px;
+  border-radius: 30px;
+
+
+}
+.nameCourse img {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 26%;
+  
+}
+.nameCourse h1 { 
+  font-size: x-large;
+}
+.nameCourse h1:hover { 
+  color: var(--green);
+}
+
+
+.descriptionCourses{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding-right: 20px;
+  
+}
+.descriptionCourses h1{ 
+  font-family: 'Spartan', sans-serif;
+
+}
+.priceCourses { 
+  text-align: center;
+  background-color: var(--grayDark);
+  filter: brightness(90%);
+  padding: 20px 5px;
+  border-radius: 20px;
+}
+
+.priceCourses:hover { 
+  color: var(--green);
+}
+
+/* COURSES */
+
+/* MODAL */
+
+
+
+.modal { 
+  background-color: whitesmoke;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal-overlay { 
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  
+}
+
+.modal-overlay.active{ 
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+.modal .close-modal{ 
+  margin: 10px 10px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+ 
+
+}
+
+.frame{
+  width: 94%;
+  height: 93%;
+  top: 3%;
+  left: 3%;
+  position: absolute;
+}
+
+
+.footer{
+  text-align: center;
+  word-spacing: 28px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+
+.footer  a{ 
+  color: aliceblue;
+  font-family: 'Spartan', sans-serif;
+  padding: 3px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--green);
+  cursor: pointer;
+
+  
+}
+
+.footer a:hover{
+  color: var(--green);
+  
+}
+
+
